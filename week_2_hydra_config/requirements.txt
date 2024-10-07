@@ -1,0 +1,12 @@
+pytorch-lightning==2.4.0
+datasets==2.21.0
+transformers==4.44.2
+scikit-learn==1.5.1
+tensorboard==2.17.1
+wandb
+torchmetrics
+matplotlib
+seaborn
+hydra-core
+omegaconf
+hydra_colorlog
