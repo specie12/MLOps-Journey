@@ -1,0 +1,43 @@
+{
+  "os": "Windows-10-10.0.22631-SP0",
+  "python": "3.11.2",
+  "startedAt": "2024-10-07T23:23:52.880716Z",
+  "program": "C:\\Users\\idris\\Desktop\\Projects\\MLOps-Journey\\week_2_hydra_config\\train.py",
+  "codePath": "week_2_hydra_config\\train.py",
+  "git": {
+    "remote": "https://github.com/specie12/MLOps-Journey.git",
+    "commit": "90ade899f88a38e295b40e2768c4ef7a173b0f44"
+  },
+  "email": "idrisdotmalik@gmail.com",
+  "root": ".",
+  "host": "LAPTOP-8H4JTDED",
+  "username": "idris",
+  "executable": "C:\\Users\\idris\\.conda\\envs\\mlops_journey\\python.exe",
+  "codePathLocal": "..\\..\\..\\train.py",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "gpu": "[NVIDIA GeForce GTX 1650]",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "510927376384",
+      "used": "385792540672"
+    }
+  },
+  "memory": {
+    "total": "17023844352"
+  },
+  "cpu": {
+    "count": 6,
+    "countLogical": 12
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce GTX 1650",
+      "memoryTotal": "4294967296",
+      "cudaCores": 1024,
+      "architecture": "Turing"
+    }
+  ],
+  "cudaVersion": "11.6"
+}
