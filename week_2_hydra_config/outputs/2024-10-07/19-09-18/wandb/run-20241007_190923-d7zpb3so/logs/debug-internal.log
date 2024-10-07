@@ -1,0 +1,18 @@
+{"time":"2024-10-07T19:09:23.0562689-04:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-07T19:09:23.0562689-04:00","level":"INFO","msg":"created symlink","path":"wandb\\run-20241007_190923-d7zpb3so\\logs\\debug-core.log"}
+{"time":"2024-10-07T19:09:23.0770872-04:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-07T19:09:23.0897252-04:00","level":"INFO","msg":"created new stream","id":"d7zpb3so"}
+{"time":"2024-10-07T19:09:23.0902636-04:00","level":"INFO","msg":"stream: started","id":"d7zpb3so"}
+{"time":"2024-10-07T19:09:23.0902636-04:00","level":"INFO","msg":"handler: started","stream_id":{"value":"d7zpb3so"}}
+{"time":"2024-10-07T19:09:23.0902636-04:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"d7zpb3so"}}
+{"time":"2024-10-07T19:09:23.0902636-04:00","level":"INFO","msg":"sender: started","stream_id":{"value":"d7zpb3so"}}
+{"time":"2024-10-07T19:09:23.6602285-04:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-07T19:09:23.6612529-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-07T19:09:34.7419969-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-07T19:09:34.7458369-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-07T19:09:36.8006667-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-07T19:09:37.9607012-04:00","level":"INFO","msg":"stream: closing","id":"d7zpb3so"}
+{"time":"2024-10-07T19:09:37.961205-04:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"d7zpb3so"}}
+{"time":"2024-10-07T19:09:37.961205-04:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"d7zpb3so"}}
+{"time":"2024-10-07T19:09:37.961205-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"d7zpb3so"}}
+{"time":"2024-10-07T19:09:37.961205-04:00","level":"INFO","msg":"stream: closed","id":"d7zpb3so"}

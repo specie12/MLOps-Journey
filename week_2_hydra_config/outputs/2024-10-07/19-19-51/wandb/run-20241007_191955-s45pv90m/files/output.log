@@ -1,0 +1,27 @@
+Map: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8551/8551 [00:00<00:00, 12386.66 examples/s]
+Map: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1043/1043 [00:00<00:00, 10853.51 examples/s]
+
+  | Name                   | Type                          | Params | Mode
+---------------------------------------------------------------------------------
+0 | bert                   | BertForSequenceClassification | 4.4 M  | eval
+1 | train_accuracy_metric  | BinaryAccuracy                | 0      | train
+2 | val_accuracy_metric    | BinaryAccuracy                | 0      | train
+3 | f1_metric              | BinaryF1Score                 | 0      | train
+4 | precision_macro_metric | BinaryPrecision               | 0      | train
+5 | recall_macro_metric    | BinaryRecall                  | 0      | train
+6 | precision_micro_metric | BinaryPrecision               | 0      | train
+7 | recall_micro_metric    | BinaryRecall                  | 0      | train
+---------------------------------------------------------------------------------
+4.4 M     Trainable params
+0         Non-trainable params
+4.4 M     Total params
+17.545    Total estimated model params size (MB)
+7         Modules in train mode
+51        Modules in eval mode
+Epoch 0: 100%|█| 33/33 [00:09<00:00,  3.66it/s, v_num=v90m, train/loss_step=0.601, train/acc_step=0.719, valid/loss_step=0.631, valid/loss_epoch=0.647, valid/acc=0.656, valid/precision_macro=0.656, valid/reca
+C:\Users\idris\.conda\envs\mlops_journey\Lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:424: The 'val_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=11` in the `DataLoader` to improve performance.
+C:\Users\idris\.conda\envs\mlops_journey\Lib\site-packages\pytorch_lightning\utilities\data.py:78: Trying to infer the `batch_size` from an ambiguous collection. The batch size we found is 64. To avoid any miscalculations, use `self.log(..., batch_size=batch_size)`.
+C:\Users\idris\.conda\envs\mlops_journey\Lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:424: The 'train_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=11` in the `DataLoader` to improve performance.
+                                                                                                                                                                                                                
+Metric valid/loss improved. New best score: 0.647
+`Trainer.fit` stopped: `max_epochs=1` reached.
