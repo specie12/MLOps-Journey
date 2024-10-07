@@ -1,0 +1,7 @@
+name: project-setup
+channels:
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+  - https://repo.anaconda.com/pkgs/msys2
+  - defaults
+prefix: C:\ProgramData\anaconda3\envs\project-setup

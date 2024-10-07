@@ -1,0 +1,95 @@
+2024-09-09 22:16:38 INFO open for scan: C:\Users\idris\Desktop\MLOps Basics\MLOps-Journey\week_1_wandb_logging\wandb\offline-run-20240909_221411-ob7d1vab\run-ob7d1vab.wandb
+2024-09-09 22:16:39 INFO watching files in: C:\Users\idris\Desktop\MLOps Basics\MLOps-Journey\week_1_wandb_logging\wandb\offline-run-20240909_221411-ob7d1vab\files
+2024-09-09 22:16:39 INFO run started: ob7d1vab with start time 1725934451.681614
+2024-09-09 22:16:39 INFO saving file wandb-metadata.json with policy now
+2024-09-09 22:16:39 WARNING Seen metric with glob (shouldn't happen)
+2024-09-09 22:16:39 INFO Uploaded file C:\Users\idris\AppData\Local\Temp\tmpjrsqhf_mwandb\ool4ex55-wandb-metadata.json
+2024-09-09 22:16:39 INFO Uploaded file C:\Users\idris\AppData\Local\wandb\wandb\artifacts\staging\tmpdp4tt3iq
+2024-09-09 22:16:40 INFO file/dir created: C:\Users\idris\Desktop\MLOps Basics\MLOps-Journey\week_1_wandb_logging\wandb\offline-run-20240909_221411-ob7d1vab\files\output.log
+2024-09-09 22:16:40 INFO sent artifact run-ob7d1vab-conf_table - {'id': 'QXJ0aWZhY3Q6MTIwNzE1MTExMw==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ0MDY5NTk2Mg==', 'latestArtifact': None}}
+2024-09-09 22:16:40 INFO saving file media\table\conf_table_0_c53ed8f96b6b1d1dd3cf.table.json with policy now
+2024-09-09 22:16:40 INFO Uploaded file C:\Users\idris\AppData\Local\Temp\tmpjrsqhf_mwandb\2r717oil-media/table/conf_table_0_c53ed8f96b6b1d1dd3cf.table.json
+2024-09-09 22:16:40 INFO Uploaded file C:\Users\idris\AppData\Local\wandb\wandb\artifacts\staging\tmpnvi_dlli
+2024-09-09 22:16:40 INFO sent artifact run-ob7d1vab-examples - {'id': 'QXJ0aWZhY3Q6MTIwNzE1MTE1NQ==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ0MDY5NTk5NA==', 'latestArtifact': None}}
+2024-09-09 22:16:40 INFO saving file media\table\examples_1_7041dea245308e6c3387.table.json with policy now
+2024-09-09 22:16:41 INFO file/dir modified: C:\Users\idris\Desktop\MLOps Basics\MLOps-Journey\week_1_wandb_logging\wandb\offline-run-20240909_221411-ob7d1vab\files\output.log
+2024-09-09 22:16:41 INFO Uploaded file C:\Users\idris\AppData\Local\Temp\tmpjrsqhf_mwandb\jz6c28qt-media/table/examples_1_7041dea245308e6c3387.table.json
+2024-09-09 22:16:41 INFO Uploaded file C:\Users\idris\AppData\Local\wandb\wandb\artifacts\staging\tmpsunm28or
+2024-09-09 22:16:42 INFO sent artifact run-ob7d1vab-conf_table - {'id': 'QXJ0aWZhY3Q6MTIwNzE1MTE5OA==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ0MDY5NTk2Mg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTIwNzE1MTExMw==', 'versionIndex': 0}}}
+2024-09-09 22:16:42 INFO saving file media\table\conf_table_32_64d53b227faa1d9af28f.table.json with policy now
+2024-09-09 22:16:42 INFO Uploaded file C:\Users\idris\AppData\Local\Temp\tmpjrsqhf_mwandb\y6zimffn-media/table/conf_table_32_64d53b227faa1d9af28f.table.json
+2024-09-09 22:16:42 INFO Uploaded file C:\Users\idris\AppData\Local\wandb\wandb\artifacts\staging\tmpe7tt94p2
+2024-09-09 22:16:43 INFO file/dir modified: C:\Users\idris\Desktop\MLOps Basics\MLOps-Journey\week_1_wandb_logging\wandb\offline-run-20240909_221411-ob7d1vab\files\output.log
+2024-09-09 22:16:43 INFO sent artifact run-ob7d1vab-examples - {'id': 'QXJ0aWZhY3Q6MTIwNzE1MTI1OA==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ0MDY5NTk5NA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTIwNzE1MTE1NQ==', 'versionIndex': 0}}}
+2024-09-09 22:16:43 INFO saving file media\table\examples_34_91f6e347e7ecd02507aa.table.json with policy now
+2024-09-09 22:16:43 INFO sent artifact run-ob7d1vab-conf_table - {'id': 'QXJ0aWZhY3Q6MTIwNzE1MTE5OA==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ0MDY5NTk2Mg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTIwNzE1MTE5OA==', 'versionIndex': 1}}}
+2024-09-09 22:16:43 INFO saving file media\table\conf_table_66_64d53b227faa1d9af28f.table.json with policy now
+2024-09-09 22:16:43 INFO sent artifact run-ob7d1vab-examples - {'id': 'QXJ0aWZhY3Q6MTIwNzE1MTI1OA==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ0MDY5NTk5NA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTIwNzE1MTI1OA==', 'versionIndex': 1}}}
+2024-09-09 22:16:43 INFO saving file media\table\examples_68_91f6e347e7ecd02507aa.table.json with policy now
+2024-09-09 22:16:43 INFO Uploaded file C:\Users\idris\AppData\Local\Temp\tmpjrsqhf_mwandb\tolci5hw-media/table/examples_34_91f6e347e7ecd02507aa.table.json
+2024-09-09 22:16:43 INFO Uploaded file C:\Users\idris\AppData\Local\Temp\tmpjrsqhf_mwandb\p7s8oekv-media/table/conf_table_66_64d53b227faa1d9af28f.table.json
+2024-09-09 22:16:43 INFO sent artifact run-ob7d1vab-conf_table - {'id': 'QXJ0aWZhY3Q6MTIwNzE1MTE5OA==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ0MDY5NTk2Mg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTIwNzE1MTE5OA==', 'versionIndex': 1}}}
+2024-09-09 22:16:43 INFO saving file media\table\conf_table_101_64d53b227faa1d9af28f.table.json with policy now
+2024-09-09 22:16:43 INFO sent artifact run-ob7d1vab-examples - {'id': 'QXJ0aWZhY3Q6MTIwNzE1MTI1OA==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ0MDY5NTk5NA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTIwNzE1MTI1OA==', 'versionIndex': 1}}}
+2024-09-09 22:16:43 INFO saving file media\table\examples_103_91f6e347e7ecd02507aa.table.json with policy now
+2024-09-09 22:16:43 INFO saving file wandb-summary.json with policy end
+2024-09-09 22:16:43 INFO handling exit code: 0
+2024-09-09 22:16:43 INFO handling runtime: 119
+2024-09-09 22:16:43 INFO saving file wandb-summary.json with policy end
+2024-09-09 22:16:43 INFO send defer
+2024-09-09 22:16:43 INFO handle sender defer: 0
+2024-09-09 22:16:43 INFO send defer: 1
+2024-09-09 22:16:43 INFO handle sender defer: 1
+2024-09-09 22:16:43 INFO send defer: 2
+2024-09-09 22:16:43 INFO handle sender defer: 2
+2024-09-09 22:16:43 INFO send defer: 3
+2024-09-09 22:16:43 INFO handle sender defer: 3
+2024-09-09 22:16:43 INFO send defer: 4
+2024-09-09 22:16:43 INFO handle sender defer: 4
+2024-09-09 22:16:43 INFO send defer: 5
+2024-09-09 22:16:43 INFO handle sender defer: 5
+2024-09-09 22:16:43 INFO send defer: 6
+2024-09-09 22:16:43 INFO handle sender defer: 6
+2024-09-09 22:16:43 INFO Uploaded file C:\Users\idris\AppData\Local\Temp\tmpjrsqhf_mwandb\9100rpcz-media/table/examples_68_91f6e347e7ecd02507aa.table.json
+2024-09-09 22:16:43 INFO send defer: 7
+2024-09-09 22:16:43 INFO handle sender defer: 7
+2024-09-09 22:16:44 INFO Uploaded file C:\Users\idris\AppData\Local\Temp\tmpjrsqhf_mwandb\g9sax170-media/table/conf_table_101_64d53b227faa1d9af28f.table.json
+2024-09-09 22:16:44 INFO Uploaded file C:\Users\idris\AppData\Local\Temp\tmpjrsqhf_mwandb\1rzi9em6-media/table/examples_103_91f6e347e7ecd02507aa.table.json
+2024-09-09 22:16:44 INFO file/dir modified: C:\Users\idris\Desktop\MLOps Basics\MLOps-Journey\week_1_wandb_logging\wandb\offline-run-20240909_221411-ob7d1vab\files\config.yaml
+2024-09-09 22:16:44 INFO file/dir modified: C:\Users\idris\Desktop\MLOps Basics\MLOps-Journey\week_1_wandb_logging\wandb\offline-run-20240909_221411-ob7d1vab\files\wandb-summary.json
+2024-09-09 22:16:45 INFO file/dir modified: C:\Users\idris\Desktop\MLOps Basics\MLOps-Journey\week_1_wandb_logging\wandb\offline-run-20240909_221411-ob7d1vab\files\output.log
+2024-09-09 22:16:47 INFO send defer: 8
+2024-09-09 22:16:47 INFO handle sender defer: 8
+2024-09-09 22:16:47 INFO Attempting to build job artifact
+2024-09-09 22:16:47 WARNING No requirements.txt found, not creating job artifact. See https://docs.wandb.ai/guides/launch/create-job
+2024-09-09 22:16:47 INFO send defer: 9
+2024-09-09 22:16:47 INFO handle sender defer: 9
+2024-09-09 22:16:47 INFO shutting down directory watcher
+2024-09-09 22:16:47 INFO file/dir modified: C:\Users\idris\Desktop\MLOps Basics\MLOps-Journey\week_1_wandb_logging\wandb\offline-run-20240909_221411-ob7d1vab\files\output.log
+2024-09-09 22:16:47 INFO scan: C:\Users\idris\Desktop\MLOps Basics\MLOps-Journey\week_1_wandb_logging\wandb\offline-run-20240909_221411-ob7d1vab\files
+2024-09-09 22:16:47 INFO scan save: C:\Users\idris\Desktop\MLOps Basics\MLOps-Journey\week_1_wandb_logging\wandb\offline-run-20240909_221411-ob7d1vab\files\conda-environment.yaml conda-environment.yaml
+2024-09-09 22:16:47 INFO scan save: C:\Users\idris\Desktop\MLOps Basics\MLOps-Journey\week_1_wandb_logging\wandb\offline-run-20240909_221411-ob7d1vab\files\config.yaml config.yaml
+2024-09-09 22:16:47 INFO scan save: C:\Users\idris\Desktop\MLOps Basics\MLOps-Journey\week_1_wandb_logging\wandb\offline-run-20240909_221411-ob7d1vab\files\output.log output.log
+2024-09-09 22:16:47 INFO scan save: C:\Users\idris\Desktop\MLOps Basics\MLOps-Journey\week_1_wandb_logging\wandb\offline-run-20240909_221411-ob7d1vab\files\wandb-metadata.json wandb-metadata.json
+2024-09-09 22:16:47 INFO scan save: C:\Users\idris\Desktop\MLOps Basics\MLOps-Journey\week_1_wandb_logging\wandb\offline-run-20240909_221411-ob7d1vab\files\wandb-summary.json wandb-summary.json
+2024-09-09 22:16:47 INFO scan save: C:\Users\idris\Desktop\MLOps Basics\MLOps-Journey\week_1_wandb_logging\wandb\offline-run-20240909_221411-ob7d1vab\files\media\table\conf_table_0_c53ed8f96b6b1d1dd3cf.table.json media/table/conf_table_0_c53ed8f96b6b1d1dd3cf.table.json
+2024-09-09 22:16:47 INFO scan save: C:\Users\idris\Desktop\MLOps Basics\MLOps-Journey\week_1_wandb_logging\wandb\offline-run-20240909_221411-ob7d1vab\files\media\table\conf_table_101_64d53b227faa1d9af28f.table.json media/table/conf_table_101_64d53b227faa1d9af28f.table.json
+2024-09-09 22:16:47 INFO scan save: C:\Users\idris\Desktop\MLOps Basics\MLOps-Journey\week_1_wandb_logging\wandb\offline-run-20240909_221411-ob7d1vab\files\media\table\conf_table_32_64d53b227faa1d9af28f.table.json media/table/conf_table_32_64d53b227faa1d9af28f.table.json
+2024-09-09 22:16:47 INFO scan save: C:\Users\idris\Desktop\MLOps Basics\MLOps-Journey\week_1_wandb_logging\wandb\offline-run-20240909_221411-ob7d1vab\files\media\table\conf_table_66_64d53b227faa1d9af28f.table.json media/table/conf_table_66_64d53b227faa1d9af28f.table.json
+2024-09-09 22:16:47 INFO scan save: C:\Users\idris\Desktop\MLOps Basics\MLOps-Journey\week_1_wandb_logging\wandb\offline-run-20240909_221411-ob7d1vab\files\media\table\examples_103_91f6e347e7ecd02507aa.table.json media/table/examples_103_91f6e347e7ecd02507aa.table.json
+2024-09-09 22:16:47 INFO scan save: C:\Users\idris\Desktop\MLOps Basics\MLOps-Journey\week_1_wandb_logging\wandb\offline-run-20240909_221411-ob7d1vab\files\media\table\examples_1_7041dea245308e6c3387.table.json media/table/examples_1_7041dea245308e6c3387.table.json
+2024-09-09 22:16:47 INFO scan save: C:\Users\idris\Desktop\MLOps Basics\MLOps-Journey\week_1_wandb_logging\wandb\offline-run-20240909_221411-ob7d1vab\files\media\table\examples_34_91f6e347e7ecd02507aa.table.json media/table/examples_34_91f6e347e7ecd02507aa.table.json
+2024-09-09 22:16:47 INFO scan save: C:\Users\idris\Desktop\MLOps Basics\MLOps-Journey\week_1_wandb_logging\wandb\offline-run-20240909_221411-ob7d1vab\files\media\table\examples_68_91f6e347e7ecd02507aa.table.json media/table/examples_68_91f6e347e7ecd02507aa.table.json
+2024-09-09 22:16:47 INFO send defer: 10
+2024-09-09 22:16:47 INFO handle sender defer: 10
+2024-09-09 22:16:47 INFO shutting down file pusher
+2024-09-09 22:16:47 INFO shutting down sender
+2024-09-09 22:16:47 INFO shutting down file pusher
+2024-09-09 22:16:47 INFO waiting for file pusher
+2024-09-09 22:16:47 INFO Uploaded file C:\Users\idris\Desktop\MLOps Basics\MLOps-Journey\week_1_wandb_logging\wandb\offline-run-20240909_221411-ob7d1vab\files\conda-environment.yaml
+2024-09-09 22:16:47 INFO Uploaded file C:\Users\idris\Desktop\MLOps Basics\MLOps-Journey\week_1_wandb_logging\wandb\offline-run-20240909_221411-ob7d1vab\files\config.yaml
+2024-09-09 22:16:47 INFO Uploaded file C:\Users\idris\Desktop\MLOps Basics\MLOps-Journey\week_1_wandb_logging\wandb\offline-run-20240909_221411-ob7d1vab\files\output.log
+2024-09-09 22:16:47 INFO Uploaded file C:\Users\idris\Desktop\MLOps Basics\MLOps-Journey\week_1_wandb_logging\wandb\offline-run-20240909_221411-ob7d1vab\files\wandb-summary.json
+2024-09-09 22:16:47 INFO send defer: 11
+2024-09-09 22:16:48 INFO file stream finish called
+2024-09-09 22:16:48 INFO file stream finish is done
