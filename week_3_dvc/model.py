@@ -4,6 +4,7 @@ import hydra
 import numpy as np
 import pandas as pd
 import torchmetrics
+from torchmetrics.classification import F1Score, Precision, Recall  # Updated imports
 import pytorch_lightning as pl
 from transformers import AutoModelForSequenceClassification
 from omegaconf import OmegaConf, DictConfig
@@ -21,17 +22,18 @@ class ColaModel(pl.LightningModule):
             model_name, num_labels=2
         )
         self.num_classes = 2
-        self.train_accuracy_metric = torchmetrics.Accuracy()
-        self.val_accuracy_metric = torchmetrics.Accuracy()
-        self.f1_metric = torchmetrics.F1(num_classes=self.num_classes)
+        # Updated accuracy metrics to include task='binary'
+        self.train_accuracy_metric = torchmetrics.Accuracy(task="binary")
+        self.val_accuracy_metric = torchmetrics.Accuracy(task="binary")
+        self.f1_metric = F1Score(num_classes=self.num_classes, task="binary")
         self.precision_macro_metric = torchmetrics.Precision(
-            average="macro", num_classes=self.num_classes
+            task="binary", average="macro"
         )
         self.recall_macro_metric = torchmetrics.Recall(
-            average="macro", num_classes=self.num_classes
+            task="binary", average="macro"
         )
-        self.precision_micro_metric = torchmetrics.Precision(average="micro")
-        self.recall_micro_metric = torchmetrics.Recall(average="micro")
+        self.precision_micro_metric = torchmetrics.Precision(task="binary", average="micro")
+        self.recall_micro_metric = torchmetrics.Recall(task="binary", average="micro")
 
     def forward(self, input_ids, attention_mask, labels=None):
         outputs = self.bert(
@@ -73,15 +75,21 @@ class ColaModel(pl.LightningModule):
         self.log("valid/precision_micro", precision_micro, prog_bar=True, on_epoch=True)
         self.log("valid/recall_micro", recall_micro, prog_bar=True, on_epoch=True)
         self.log("valid/f1", f1, prog_bar=True, on_epoch=True)
+        # Save outputs for validation epoch end
+        self.val_outputs.append({"labels": labels, "logits": outputs.logits})
         return {"labels": labels, "logits": outputs.logits}
 
-    def validation_epoch_end(self, outputs):
-        labels = torch.cat([x["labels"] for x in outputs])
-        logits = torch.cat([x["logits"] for x in outputs])
+    def on_validation_epoch_start(self):
+        # Initialize val_outputs at the start of each validation epoch
+        self.val_outputs = []
+
+    def on_validation_epoch_end(self):
+        # Concatenate all the outputs collected during validation
+        labels = torch.cat([x["labels"] for x in self.val_outputs])
+        logits = torch.cat([x["logits"] for x in self.val_outputs])
         preds = torch.argmax(logits, 1)
 
-        ## There are multiple ways to track the metrics
-        # 1. Confusion matrix plotting using inbuilt W&B method
+        # Confusion matrix plotting
         self.logger.experiment.log(
             {
                 "conf": wandb.plot.confusion_matrix(
@@ -89,6 +97,9 @@ class ColaModel(pl.LightningModule):
                 )
             }
         )
+
+        # Optionally, reset the outputs list
+        self.val_outputs = []
 
         # 2. Confusion Matrix plotting using scikit-learn method
         # wandb.log({"cm": wandb.sklearn.plot_confusion_matrix(labels.numpy(), preds)})
