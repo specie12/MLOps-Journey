@@ -38,7 +38,7 @@ def convert_model(cfg):
         ),  # model input (or a tuple for multiple inputs)
         f"{root_dir}/models/model.onnx",  # where to save the model (can be a file or file-like object)
         export_params=True,
-        opset_version=10,
+        opset_version=14,
         input_names=["input_ids", "attention_mask"],  # the model's input names
         output_names=["output"],  # the model's output names
         dynamic_axes={
