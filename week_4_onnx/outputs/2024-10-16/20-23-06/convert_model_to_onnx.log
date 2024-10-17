@@ -1,0 +1,2 @@
+[2024-10-16 20:23:06,808][__main__][INFO] - Loading pre-trained model from: C:\Users\idris\Desktop\Projects\MLOps-Journey\week_4_onnx/models/best-checkpoint.ckpt
+[2024-10-16 20:23:10,927][__main__][INFO] - Converting the model into ONNX format
